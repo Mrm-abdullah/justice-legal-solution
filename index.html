@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Soluatoin</title>
+
+    <!-- tailwind and daisyui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- font awsome  -->
+    <!-- <script src="https://kit.fontawesome.com/bed7bef9b6.js" crossorigin="anonymous"></script> -->
+    <!-- tailwind custom color  -->
+    <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                colors: {
+                clifford: '#da373d',
+                }
+            }
+            }
+        }
+    </script>
+    <style>
+        .font-eb-garamond{
+            font-family: 'EB Garamond', serif;
+        }
+        .font-poppins{
+            font-family: 'Poppins', sans-serif;
+        }
+        .max-width{
+            max-width: 1170px;
+        }
+    </style>
+</head>
+<body class="font-poppins">
+    <header class="container  m-auto">
+        <nav class=" max-width m-auto">
+            <div class="navbar bg-base-100 mt-12">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li>
+                          <details>
+                            <summary> Services</summary>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </details>
+                        </li>
+                        <li>
+                          <details>
+                            <summary>Cases</summary>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </details>
+                        </li>
+                        <li>
+                          <details>
+                            <summary>Blog</summary>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </details>
+                        </li>
+                        <li>
+                          <details>
+                            <summary>Contact Us</summary>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          <!-- </details> -->
+                        </li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl"><img src="./images/justice.svg" alt=""><span class="font-extrabold text-4xl">Justice</span></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li>
+                      <details>
+                        <summary> Services</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <details>
+                        <summary>Cases</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <details>
+                        <summary>Blog</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <details>
+                        <summary>Contact Us</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      <!-- </details> -->
+                    </li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn text-white bg-[#B68C5A]">Free Consultation</a>
+                </div>
+              </div>
+        </nav>
+        <!-- banner -->
+        <div class=" max-width m-auto">
+            <div class="mt-12 card bg-base-100 shadow-x image-full">
+                <figure><img src="./images/banner.png" alt="Shoes" /></figure>
+                <div class="card-body items-center m-auto space-y-4 text-center">
+                  <h2 class="card-title text-7xl font-extrabold">We Provide Effective <br> Legal Solutions!</h2>
+                  <p class="max-w-[680px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div class="grid grid-cols-4 gap-3 w-full">
+                    <input type="search" name="" id="" placeholder="Search your services" class="p-[11px] rounded-lg col-span-3">
+                    <input type="submit" value="Search" class="btn text-white bg-[#B68C5A] border-none col-span-1">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
